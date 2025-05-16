@@ -1,12 +1,13 @@
+import requests
+import pandas as pd
+import plotly.graph_objects as go
 import streamlit as st
-from client import StockApp
-
-# create page title
-st.set_page_config("Stock Market App") 
-
-# add title
-
-st.title("Stock Market App")
-
-# add subheading
-st.subheader("By Aditya Dalvi")
+from client import StockApi
+ 
+ 
+ 
+ 
+## add page title
+ 
+st.set_page_config(page_title= "Stock Market App"  , layout= "wide")
+ 
